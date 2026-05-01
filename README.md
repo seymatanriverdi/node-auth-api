@@ -31,3 +31,9 @@ create .env file
   PORT=3000
   MONGO_URI=your_mongo_uri
   JWT_SECRET=your_secret
+
+Endpoints
+  POST /register
+  POST /login
+  GET /profile (protected)
+  GET /users (admin only)
