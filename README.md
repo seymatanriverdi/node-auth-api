@@ -26,3 +26,8 @@
 
 ```bash
 docker compose up --build
+
+create .env file
+  PORT=3000
+  MONGO_URI=your_mongo_uri
+  JWT_SECRET=your_secret
